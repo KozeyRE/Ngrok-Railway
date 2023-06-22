@@ -1,5 +1,5 @@
 FROM ubuntu
-ARG NGROK_TOKEN
+ARG NGROK_TOKEN=2RYE8U224WHrXxDZqz5c0cyboxs_6UAn3tgze89WkFq3PyDrA
 ARG REGION=jp
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install -y \
